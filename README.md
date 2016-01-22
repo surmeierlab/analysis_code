@@ -32,7 +32,8 @@ For now, you have to add the package into python environment by adding path to `
 `.bashrc` in order to import and use `neurphys` library.
 
 ```python
-export PYTHONPATH=$PYTHONPATH:/PATH/TO/neurphys
+export PYTHONPATH='/PATH/TO/neurphys:$PYTHONPATH'
+export PYTHONPATH
 ```
 
 
